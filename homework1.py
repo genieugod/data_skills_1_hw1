@@ -58,8 +58,8 @@ while True:
 # Question 4: Write a list comprehension that starts with any list of strings, and returns a new
 # list that contains each string in all lower-case letters, but only if the string begins with the
 # letter "a" or "b".
-list_4 = ["radar", "A man, a plan, a canal, Panama!", "Apple", "This isn't a palindrome", "banana"]
-list_4_an = [sen.lower() for sen in list_4 if sen[0].lower() in ["a", "b"]]
+list_4 = ["radar", "A man, a plan, a canal, Panama!", "apple", "This isn't a palindrome", "banana"]
+list_4_an = [sen.lower() for sen in list_4 if sen[0] in ["a", "b"]]
 print(list_4_an)
 
 # Question 5: Beginning with the list below, write a single list comprehension that turns it into
